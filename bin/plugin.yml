@@ -1,0 +1,16 @@
+main: com.vhbob.sguns.SpigotGuns
+name: SpigotGuns
+description: Lag-Free customizable firearms for your Spigot server
+version: 1.0.0
+author: Vhbob
+commands:
+  GiveGun:
+    description: Give a gun to a player
+    permission: gun.give
+    permission-message: You do not have permission to do this
+    usage: Error! Try /GiveGun <Player> <Gun>, valid gun types can be see in the config
+  GiveAmmo:
+    description: Give ammo to a player
+    permission: ammo.give
+    permission-message: You do not have permission to do this
+    usage: Error! Try /GiveAmmo <Player> <Ammo>, valid ammo types can be see in the config

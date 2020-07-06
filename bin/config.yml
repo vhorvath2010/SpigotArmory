@@ -1,0 +1,185 @@
+# Welcome to the SpigotGuns config
+
+# The reward per-kill
+reward: 75
+  
+# Use sounds from: https://helpch.at/docs/1.8.8/org/bukkit/Sound.html
+sounds:
+  shoot: FIREWORK_BLAST
+  reload: HORSE_SADDLE
+
+# Here you can edit gun functions like range, damage, and magazine size
+# Range is in blocks, damage is hearts with iron armor on.
+# The cooldown is time between shots in seconds
+# Reload is the time for a reload in seconds
+# For item types, please use items from https://helpch.at/docs/1.8/org/bukkit/Material.html
+# For effects, use ones from: https://helpch.at/docs/1.8.8/org/bukkit/Effect.html
+# Support is how many blocks around the user 
+# are counted as a hit
+
+guns:
+  M4:
+    damage: 2
+    range: 30
+    mag: 32
+    cooldown: 0.15
+    reload: 1
+    zoom: 3
+    support: 0.25
+    effect: SMOKE
+    particles: 1
+    item: STONE_SPADE
+    name: '&6&LM4&7'
+    lore:
+      - '&7Right click to shoot'
+  AK:
+    damage: 2
+    range: 30
+    mag: 30
+    cooldown: 0.15
+    reload: 1
+    zoom: 3
+    support: 0.25
+    effect: SMOKE
+    particles: 1
+    item: WOOD_AXE
+    name: '&6&LAK-47&7'
+    lore:
+      - '&7Right click to shoot'
+  Minigun:
+    damage: .5
+    range: 60
+    mag: 100
+    cooldown: 0.1
+    reload: 1
+    zoom: 2
+    support: 0.25
+    effect: SMOKE
+    particles: 1
+    item: STONE_PICKAXE
+    name: '&6&LMinigun&7'
+    lore:
+      - '&7Right click to shoot'
+  Type95:
+    damage: 2
+    range: 25
+    mag: 27
+    cooldown: 0.12
+    reload: 1
+    zoom: 1
+    support: 0.25
+    effect: SMOKE
+    particles: 1
+    item: IRON_PICKAXE
+    name: '&6&LType-95&7'
+    lore:
+      - '&7Right click to shoot'
+  Gauss:
+    damage: 3
+    range: 15
+    mag: 7
+    cooldown: 0.5
+    reload: 0.5 
+    zoom: 0
+    support: 0.75
+    effect: SMOKE
+    particles: 1
+    item: IRON_BARDING
+    name: '&6&LGauss&7'
+    lore:
+      - '&7Right click to shoot'
+  Tesla:
+    damage: 3
+    range: 20
+    mag: 10
+    cooldown: 0.5
+    reload: 0.5
+    zoom: 1
+    support: 0.75
+    effect: SMOKE
+    particles: 1
+    item: GOLD_BARDING
+    name: '&6&LTesla&7'
+    lore:
+      - '&7Right click to shoot'
+  Sniper:
+    damage: 3
+    range: 256
+    mag: 4
+    cooldown: 1
+    reload: 0.5
+    zoom: 5
+    support: 0.25
+    effect: SMOKE
+    particles: 1
+    item: WOOD_PICKAXE
+    name: '&6&LHeavy Sniper&7'
+    lore:
+      - '&7Right click to shoot'
+      - '&7Left click to zoom'
+  Deagle:
+    damage: 2
+    range: 15
+    mag: 7
+    cooldown: 0.5
+    reload: 1
+    zoom: 0
+    support: 0.25
+    effect: SMOKE
+    particles: 1
+    item: WOOD_HOE
+    name: '&6&LDesert Eagle&7'
+    lore:
+      - '&7Right or left click to shoot'
+      
+# Changing the Olympia's damage changes how far it will move the player
+  Olympia:
+    damage: 1
+    range: 2
+    mag: 1
+    cooldown: 2
+    reload: 2
+    zoom: 0
+    support: 0.75
+    effect: SMOKE
+    particles: 1
+    item: WOOD_SPADE
+    name: '&6&LOlympia&7'
+    lore:
+      - '&7Right click to shoot'
+      - '&7Moves you a certain direction!'
+
+# Here you can change the ammo specs
+# Use item types from: https://helpch.at/docs/1.8/org/bukkit/Material.html
+
+ammo:
+  ar:
+    item: STONE_BUTTON
+    name: '&rAR Magazine'
+    lore:
+      - '&7Ammo for an assault rifle'
+  shotgun:
+    item: WOOD_BUTTON
+    name: '&rShotgun Shell'
+    lore:
+      - '&7Ammo for a shotgun'
+  sniper:
+    item: LEVER
+    name: '&rSniper Bullet'
+    lore:
+      - '&7Ammo for a sniper'
+  smg:
+    item: TRIPWIRE_HOOK
+    name: '&rSmg Magazine'
+    lore:
+      - '&7Ammo for an SMG'
+  olympia:
+    item: BLAZE_ROD
+    name: '&rOlympia Ammo'
+    lore:
+      - '&7Ammo for an Olympia'
+  pistol:
+    item: STICK
+    name: '&rPistol Ammo'
+    lore:
+      - '&7Ammo for a pistol'
